@@ -1,0 +1,158 @@
+/* Reset CSS */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
+.container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Content area */
+.content {
+    flex: 1;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+}
+
+/* Sidebar styling */
+aside {
+    margin: 20px;
+}
+
+/* Unordered list styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* List item styling */
+li {
+    margin-bottom: 10px;
+}
+
+/* Footer styling */
+/* Footer styling */
+footer {
+    background-color: #fff; /* Warna latar belakang putih */
+    color: #333; /* Warna teks */
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    border-top: 1px solid black; /* Garis hitam di bagian atas footer */
+    box-sizing: border-box; /* Menghitung padding dan border ke dalam lebar */
+}
+
+
+/* Navigation styling */
+footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer nav ul li a {
+    color: red;
+    text-decoration: none;
+}
+
+/* Link styling */
+a {
+    color: blue;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active,
+a:focus {
+    color: inherit;
+    outline: none;
+}
+
+/* Link styling within the latest posts list */
+#latest-posts-list a {
+    color: blue;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#latest-posts-list a:hover {
+    color: red;
+}
+
+#latest-posts-list a:active,
+#latest-posts-list a:focus {
+    color: inherit;
+    outline: none;
+}
+
+#latest-posts-list {
+    width: 99%;
+    margin: 5px auto;
+    border: 1px solid #4CAF50;
+    -webkit-box-shadow: 4px 4px 8px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 4px 4px 8px 2px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 8px 2px rgba(0,0,0,0.2);
+}
+
+#latest-posts-list .labl {
+    color: #333;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 1px 0 2px 11px;
+    background: #4CAF50;
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 3px 3px 1px #bbb;
+    -moz-box-shadow: 3px 3px 1px #bbb;
+    -webkit-box-shadow: 3px 3px 1px #bbb;
+    display: block;
+}
+
+#latest-posts-list .labl a {
+    color: #fff;
+}
+
+#latest-posts-list .labl:first-letter {
+    text-transform: uppercase;
+}
+#latest-posts-list li {
+    margin-bottom: 10px; /* Atur jarak antara setiap posting */
+}
+
+#latest-posts-list li {
+    border-bottom: 1px solid black; /* Garis hitam di bagian bawah setiap posting */
+}
+
+#latest-posts-list {
+    font-family: DeJavu, sans-serif; /* Memilih jenis font */
+    font-size: 16px; /* Menentukan ukuran font */
+    font-weight: normal; /* Menentukan ketebalan font */
+    line-height: 1.5; /* Menentukan jarak antara baris */
+    color: #333; /* Warna teks */
+}
+
+header h1 a {
+    color: black; /* Warna tautan hitam */
+    text-decoration: none; /* Menghilangkan dekorasi tautan */
+}
