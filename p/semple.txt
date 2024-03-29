@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita Terkini</title>
+    <link rel="stylesheet" href="p.css">
+</head>
+<body>
+    <header>
+    <h1><a href="../index.html">Berita Terkini</a></h1>
+    </header>
+
+
+    
+<div class="content">
+    <h2>Kisah Kontroversi: Pejabat Binance Kabur dari Penahanan Nigeria</h2>
+<p>&nbsp;</p><p>Sebuah drama yang mengejutkan terjadi ketika Nadiem Anjarwalla, seorang manajer regional Binance untuk wilayah Afrika, dilaporkan berhasil kabur dari penahanan di Nigeria. Bersama dengan Igran Gambaryan, rekan sejawatnya yang juga ditahan, mereka menjadi sorotan media setelah pemerintah Nigeria menuduh Binance melakukan penggelapan pajak.</p><p>Kabar keberhasilan kaburnya Anjarwalla mencuat setelah pemerintah Nigeria resmi menggugat Binance atas tuduhan tersebut. Meskipun demikian, Binance tetap menjaga komitmen untuk bekerja sama dengan otoritas Nigeria guna menyelesaikan masalah ini.</p><p>Penangkapan Anjarwalla dan Gambaryan di Nigeria telah memicu kontroversi karena dianggap sebagai tindakan yang semena-mena. Tanpa dakwaan yang disampaikan, mereka langsung ditahan begitu tiba di Nigeria, dan masa tahanan mereka diperpanjang meskipun seharusnya berakhir pada tanggal tertentu.</p><p>Binance memiliki basis pengguna yang signifikan di Nigeria, terutama karena kejatuhan nilai mata uang lokal, naira, yang mendorong warga untuk mencari perlindungan nilai melalui aset kripto. Namun, pemerintah Nigeria mencoba mengaitkan masalah nilai naira dengan aktivitas aset kripto, bahkan menuduh Binance dan bursa kripto lainnya sebagai sarana pencucian uang.</p><p>Gubernur bank sentral Nigeria, Olayemi Cardoso, mengungkapkan bahwa dana senilai US$ 26 miliar telah melewati bursa Binance dalam satu tahun terakhir, tanpa kejelasan mengenai sumber dan pemiliknya. Hal ini menambah kompleksitas situasi dan menimbulkan pertanyaan tentang transparansi dan legalitas operasi Binance di Nigeria.</p><p>Sementara Nigeria terus berupaya menegakkan hukum dan menyelidiki tuduhan terhadap Binance, keberhasilan kaburnya Anjarwalla menambah babak baru dalam drama ini. Bagaimana nasib Binance dan bagaimana penyelesaiannya? Hanya waktu yang akan memberikan jawabannya.</p>
+
+</div>
+
+
+    <footer>
+        <p>&copy; Berita Terkini</p>
+        <nav>
+            <ul>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Info</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Sport</a></li>
+                <li><a href="#">Anime</a></li>
+                <li><a href="#">Film</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="p.js"></script>
+</body>
+</html>
