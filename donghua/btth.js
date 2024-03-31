@@ -53,3 +53,12 @@ episodeLinks.forEach(function(episodeUrl, index) {
         row = document.createElement('tr');
     }
 });
+
+// Function untuk mengubah sumber video
+function changeVideoSource() {
+    // Get the selected value from the dropdown
+    var selectedSource = document.getElementById("serverDropdown").value;
+
+    // Change the iframe source
+    document.getElementById("videoPlayer").src = selectedSource;
+}
