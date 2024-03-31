@@ -6,7 +6,8 @@ var episodeLinks = [
     'https://playerprem.blogspot.com/2024/03/btth-s-5-episode-85-sub-indonesia.html?m=1',
     'https://playerprem.blogspot.com/2024/03/btth-s5-episode-86-sub-indonesia.html?m=1',
     'https://playerprem.blogspot.com/2024/03/btth-s-5-episode-87-sub-indonesia.html', 
-    'https://playerprem.blogspot.com/2024/03/btth-s-5-episode-88-sub-indonesia.html' 
+    'https://playerprem.blogspot.com/2024/03/btth-s-5-episode-88-sub-indonesia.html', 
+    'https://playerprem.blogspot.com/2024/03/btth-s-5-episode-89-sub-indonesia.html' 
     // Tambahkan link episode berikutnya di sini
 ];
 
