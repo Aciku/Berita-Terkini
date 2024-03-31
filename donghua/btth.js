@@ -3,7 +3,7 @@ var tabsContainer = document.querySelector('.tabs tbody');
 
 // Array yang berisi link untuk setiap episode
 var episodeLinks = [
-    'https://playerprem.blogspot.com/2024/03/blog-post.html?m=1',
+    'https://playerprem.blogspot.com/2024/03/btth-s-5-episode-85-sub-indonesia.html?m=1',
     'https://playerprem.blogspot.com/2024/03/blog-pos.html?m=1',
     'https://playerprem.blogspot.com/2024/03/blog-po.html?m=1'
     // Tambahkan link episode berikutnya di sini
