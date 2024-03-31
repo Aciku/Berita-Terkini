@@ -87,7 +87,7 @@
 
         // Setelah setiap 7 tab, buat baris baru
 
-        if (counter % 7 === 0 || index === episodeLinks.length - 1) {
+        if (counter % 5 === 0 || index === episodeLinks.length - 1) {
 
             tabsContainer.appendChild(row);
 
