@@ -36,7 +36,7 @@ episodeLinks.forEach(function(episodeUrl, index) {
     // Jika ini adalah episode terbaru, tambahkan label "New" dengan gaya yang ditentukan
     if (index === latestEpisodeIndex) {
         var newLabel = document.createElement('span');
-        newLabel.textContent = 'baru';
+        newLabel.textContent = '';
         newLabel.classList.add('new-label');
         tab.appendChild(newLabel);
     }
