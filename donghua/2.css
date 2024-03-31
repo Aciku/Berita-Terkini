@@ -25,6 +25,7 @@ h1 {
 
 .tabs a.active {
     background-color: #00FFFF;
+    color: black;
 }
 
 
