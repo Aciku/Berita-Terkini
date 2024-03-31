@@ -3,7 +3,13 @@ var tabsContainer = document.querySelector('.tabs tbody');
 
 // Array yang berisi link untuk setiap episode
 var episodeLinks = [
-    'https://playerprem.blogspot.com/2024/03/the-metaverse-episode-01-subtitle.html'
+    'https://playerprem.blogspot.com/2024/03/the-metaverse-episode-01-subtitle.html', 
+    'https://playerprem.blogspot.com/2024/03/the-metaverse-episode-02-subtitle.html', 
+    'https://playerprem.blogspot.com/2024/03/the-metaverse-episode-03-subtitle.html', 
+    'https://playerprem.blogspot.com/2024/03/the-metaverse-episode-04-subtitle.html', 
+    'https://playerprem.blogspot.com/2024/03/the-metaverse-episode-05-subtitle.html', 
+    'https://playerprem.blogspot.com/2024/03/the-metaverse-episode-06-subtitle.html', 
+    'https://playerprem.blogspot.com/2024/03/the-metaverse-episode-07-subtitle.html'
     
 // Tambahkan link episode berikutnya di sini
 ];
