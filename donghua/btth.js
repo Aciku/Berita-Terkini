@@ -18,7 +18,7 @@ var latestEpisodeIndex = 84; // Episode terbaru dimulai dari nomor 85
 // Buat tab-episode secara dinamis
 var row = document.createElement('tr');
 var counter = 0;
-var episodeNumber = 90; // Nomor episode dimulai dari 85
+var episodeNumber = 85; // Nomor episode dimulai dari 85
 
 episodeLinks.forEach(function(episodeUrl, index) {
     var tab = document.createElement('a');
