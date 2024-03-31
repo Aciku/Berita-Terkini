@@ -1,0 +1,58 @@
+    .tab-container {
+        overflow-y: auto; /* Tambahkan scrollbar vertikal jika tab melebihi tinggi maksimum */
+        max-height: 200px; /* Atur tinggi maksimum container */
+    }
+
+    .tabs {
+        margin: 0;
+        padding: 0;
+        width: 100%; /* Lebar tabel mengikuti lebar container */
+    }
+
+    .tabs td {
+        padding: 0px;
+        width: calc(100% / 7); /* Setiap kolom mengisi 1/7 lebar container */
+    }
+
+    .tabs a {
+        display: block;
+        padding: 10px 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #fff;
+        background-color: #333;
+        text-align: center;
+        position: relative;
+    }
+
+    .tabs a.active {
+        background-color: #00FFFF;
+        color: #000;
+    }
+
+    @media screen and (max-width: 767px) {
+        .tabs td {
+            width: 100%; /* Setiap kolom mengisi seluruh lebar container */
+        }
+    }
+  
+  .new-label {
+
+        position: absolute;
+
+        top: 0;
+
+        right: 0;
+
+        background-color: red;
+
+        color: white;
+
+        padding: 1px 1px;
+
+        font-size: 5px; /* Ubah ukuran font sesuai kebutuhan */
+
+        border-radius: 3px;
+
+  } 
