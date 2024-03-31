@@ -14,6 +14,7 @@ h1 {
 }
 
 .tabs a {
+    width: 20%; /* Lebar tab */
     padding: 7px 12px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -21,7 +22,9 @@ h1 {
     color: #fff;
     background-color: #333;
     margin: 3px;
+    box-sizing: border-box; /* Menyertakan padding dan border dalam perhitungan lebar */
 }
+
 
 .tabs a.active {
     background-color: #00FFFF;
