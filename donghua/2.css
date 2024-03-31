@@ -5,25 +5,38 @@ h1 {
     text-align: center;
 }
 
+.tab-container {
+    width: 100%; /* Sesuaikan dengan lebar yang diinginkan */
+}
+
 .tabs {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow-x: auto; /* Tambahkan scrollbar horizontal jika tab melebihi lebar layar */
+    table-layout: fixed; /* Atur tabel untuk memiliki lebar tetap */
+    width: 100%; /* Sesuaikan dengan lebar yang diinginkan */
+  
+}
+
+  .tabs td {
+    width: 20%; /* Setiap tab memiliki lebar 20% dari lebar tab-container */
+    height: auto; /* Atur tinggi tab menjadi otomatis */
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center; /* Pusatkan teks di dalam tab */
+    white-space: normal; /* Izinkan pemisahan kata */
+    word-break: break-all; /* Pecahkan kata-kata jika tidak muat di dalam tab */
 }
 
 .tabs a {
-    width: 20%; /* Lebar tab */
-    padding: 7px 12px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    display: block; /* Membuat tautan mengisi seluruh area tab */
     text-decoration: none;
     color: #fff;
     background-color: #333;
-    margin: 3px;
+    width: 100%; /* Mengisi seluruh area tab dengan tautan */
+    height: 100%; /* Mengisi seluruh area tab dengan tautan */
     box-sizing: border-box; /* Menyertakan padding dan border dalam perhitungan lebar */
 }
+
+
 
 
 .tabs a.active {
